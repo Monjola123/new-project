@@ -1,0 +1,11 @@
+
+
+a {
+  font-weight: 500;
+  color: #ff64cb;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #f253e5;
+}
+
