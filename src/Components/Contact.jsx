@@ -42,8 +42,8 @@ const Contact = (props) => {
             <Card.Subtitle className="mb-2 text-muted">Shenk Users Contact</Card.Subtitle>
             <Card.Title>{props.contactInfo.name}</Card.Title>
             <Card.Text>
-              <p>Location: {props.contactInfo.location}</p>
-              <p>Phone: {props.contactInfo.phone}</p>
+              Location: {props.contactInfo.location}
+              Phone: {props.contactInfo.phone}
             </Card.Text>
             <Card.Link href="#">
               <Button variant="primary" size="sm" onClick={handleShow}>
